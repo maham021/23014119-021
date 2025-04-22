@@ -1,0 +1,4 @@
+function closeBottomBar() {
+  const bottomBar = document.getElementById("bottomBar");
+  bottomBar.style.display = "none";
+}
