@@ -1,0 +1,37 @@
+/* Profile Form */
+.profile-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.profile-form input[type="file"] {
+    padding: 5px;
+}
+
+.profile-form .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.profile-form .btn:hover {
+    opacity: 0.9;
+}

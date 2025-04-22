@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile - Project Manager</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-center font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-500 text-white py-4 px-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center flex-wrap">
+      <div class="text-xl font-bold">ProjectManager</div>
+      <ul class="flex gap-4 list-none p-0 m-0">
+        <li><a href="index.html" class="font-bold hover:opacity-70">Home</a></li>
+        <li><a href="task.html" class="font-bold hover:opacity-70">Tasks</a></li>
+        <li><a href="calendar.html" class="font-bold hover:opacity-70">Calendar</a></li>
+        <li><a href="profile.html" class="font-bold opacity-70">Profile</a></li>
+        <li><a href="login.html" class="font-bold hover:opacity-70">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-red-600 py-24 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-5xl font-bold mb-4">Your Profile</h1>
+      <p class="text-xl mb-6">Manage your account settings and preferences</p>
+    </div>
+  </section>
+
+  <!-- Profile Form Section -->
+  <section class="py-12 px-6">
+    <h2 class="text-3xl font-semibold mb-8">Edit Profile</h2>
+    <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow flex flex-col items-center">
+      
+      <!-- Profile Image -->
+      <img src="profilepic.jpg" alt="Profile Picture"
+           class="w-28 h-28 rounded-full object-cover mb-6 border-4 border-blue-500" />
+
+      <form action="#" method="post" class="w-full flex flex-col gap-4">
+        <input type="text" name="name" placeholder="Full Name" required
+               class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        <input type="email" name="email" placeholder="Email Address" required
+               class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        <input type="password" name="password" placeholder="New Password"
+               class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        <input type="file" name="profilePic" accept="image/*"
+               class="p-2 bg-gray-50 rounded border border-gray-300" />
+        <button type="submit"
+                class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">
+          Update Profile
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 mt-12">
+    <p>&copy; 2025 Project Manager. All rights reserved.</p>
+    <div class="mt-4 flex justify-center gap-4">
+      <a href="#" class="hover:underline">Facebook</a>
+      <a href="#" class="hover:underline">Twitter</a>
+      <a href="#" class="hover:underline">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>

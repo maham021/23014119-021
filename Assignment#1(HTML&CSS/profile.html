@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile - Project Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">ProjectManager</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="task.html">Tasks</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="profile.html" class="active">Profile</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Profile</h1>
+      <p>Manage your account settings and preferences</p>
+    </div>
+  </section>
+
+  <!-- Profile Form Section -->
+  <section class="features">
+    <h2>Edit Profile</h2>
+    <div class="profile-container">
+      <img src="profilepic.jpg" alt="Profile Picture" class="profile-image" />
+      <form class="profile-form" action="#" method="post">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="password" name="password" placeholder="New Password" />
+        <input type="file" name="profilePic" accept="image/*" />
+        <button type="submit" class="btn">Update Profile</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Project Manager. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>

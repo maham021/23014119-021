@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calendar - Project Manager</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-center font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-500 text-white py-4 px-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center flex-wrap">
+      <div class="text-xl font-bold">ProjectManager</div>
+      <ul class="flex gap-4 list-none p-0 m-0">
+        <li><a href="index.html" class="font-bold hover:opacity-70">Home</a></li>
+        <li><a href="task.html" class="font-bold hover:opacity-70">Tasks</a></li>
+        <li><a href="calendar.html" class="font-bold opacity-70">Calendar</a></li>
+        <li><a href="profile.html" class="font-bold hover:opacity-70">Profile</a></li>
+        <li><a href="login.html" class="font-bold hover:opacity-70">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-red-600 py-24 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-5xl font-bold mb-4">Calendar View</h1>
+      <p class="text-xl mb-6">Visualize your tasks and deadlines by date</p>
+    </div>
+  </section>
+
+  <!-- Calendar Section -->
+  <section class="py-12 px-6">
+    <h2 class="text-3xl font-semibold mb-8">April 2025</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full border-collapse table-fixed">
+        <thead>
+          <tr class="bg-blue-100">
+            <th class="p-2 border text-gray-700 font-semibold">Sun</th>
+            <th class="p-2 border text-gray-700 font-semibold">Mon</th>
+            <th class="p-2 border text-gray-700 font-semibold">Tue</th>
+            <th class="p-2 border text-gray-700 font-semibold">Wed</th>
+            <th class="p-2 border text-gray-700 font-semibold">Thu</th>
+            <th class="p-2 border text-gray-700 font-semibold">Fri</th>
+            <th class="p-2 border text-gray-700 font-semibold">Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border h-20"></td>
+            <td class="border h-20"></td>
+            <td class="border h-20"></td>
+            <td class="border h-20 align-top p-2">1</td>
+            <td class="border h-20 align-top p-2">2</td>
+            <td class="border h-20 align-top p-2">3</td>
+            <td class="border h-20 align-top p-2">4</td>
+          </tr>
+          <tr>
+            <td class="border h-20 align-top p-2">5</td>
+            <td class="border h-20 align-top p-2">6</td>
+            <td class="border h-20 align-top p-2">7</td>
+            <td class="border h-20 align-top p-2">8</td>
+            <td class="border h-20 align-top p-2 text-blue-600 font-bold">
+              9<br><small class="block text-sm text-gray-500">Meeting</small>
+            </td>
+            <td class="border h-20 align-top p-2">10</td>
+            <td class="border h-20 align-top p-2">11</td>
+          </tr>
+          <tr>
+            <td class="border h-20 align-top p-2">12</td>
+            <td class="border h-20 align-top p-2">13</td>
+            <td class="border h-20 align-top p-2">14</td>
+            <td class="border h-20 align-top p-2 text-blue-600 font-bold">
+              15<br><small class="block text-sm text-gray-500">Design Due</small>
+            </td>
+            <td class="border h-20 align-top p-2">16</td>
+            <td class="border h-20 align-top p-2">17</td>
+            <td class="border h-20 align-top p-2 text-blue-600 font-bold">
+              18<br><small class="block text-sm text-gray-500">Presentation</small>
+            </td>
+          </tr>
+          <tr>
+            <td class="border h-20 align-top p-2">19</td>
+            <td class="border h-20 align-top p-2">20</td>
+            <td class="border h-20 align-top p-2">21</td>
+            <td class="border h-20 align-top p-2">22</td>
+            <td class="border h-20 align-top p-2">23</td>
+            <td class="border h-20 align-top p-2">24</td>
+            <td class="border h-20 align-top p-2">25</td>
+          </tr>
+          <tr>
+            <td class="border h-20 align-top p-2">26</td>
+            <td class="border h-20 align-top p-2">27</td>
+            <td class="border h-20 align-top p-2">28</td>
+            <td class="border h-20 align-top p-2">29</td>
+            <td class="border h-20 align-top p-2">30</td>
+            <td class="border h-20"></td>
+            <td class="border h-20"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 mt-12">
+    <p>&copy; 2025 Project Manager. All rights reserved.</p>
+    <div class="mt-4 flex justify-center gap-4">
+      <a href="#" class="hover:underline">Facebook</a>
+      <a href="#" class="hover:underline">Twitter</a>
+      <a href="#" class="hover:underline">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>

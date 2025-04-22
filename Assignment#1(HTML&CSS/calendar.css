@@ -1,0 +1,48 @@
+/* Calendar Table Styles */
+.calendar-table {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.calendar-table th,
+.calendar-table td {
+    width: 14.28%;
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #eee;
+    font-weight: bold;
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+}
+
+.calendar-table th {
+    background-color: #ddd;
+    font-weight: bold;
+    color: #333;
+    border-radius: 0;
+}
+
+.calendar-table td small {
+    display: block;
+    font-weight: normal;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: #3498db;
+}
+
+.calendar-table .task {
+    background-color: #e8f4fd;
+    border: 2px solid #3498db;
+}
+
+
+
